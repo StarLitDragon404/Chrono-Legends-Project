@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="61">
+=======
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="64">
+>>>>>>> d95fd2d (Added lots of changes (addes outdoors adding backdrop), also added trigger box functionallity)
+ <tileset firstgid="1" source="../tilesets/House.tsx"/>
+ <tileset firstgid="10" source="../tilesets/Objects.tsx"/>
+ <layer id="1" name="Ground" width="20" height="10">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,2,7,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,2,2,7,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="6" gid="12" x="221.34" y="143.717" width="64" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" gid="14" x="284.972" y="141.1" width="32" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" gid="14" x="193.372" y="142.67" width="32" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" gid="14" x="231.059" y="163.084" width="32" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" gid="12" x="446.414" y="65.7258" width="64" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" gid="12" x="382.033" y="65.7258" width="64" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" gid="12" x="316.604" y="65.7258" width="64" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="52" name="grilled_cheese" gid="16" x="235" y="133.25" width="32" height="32">
+   <properties>
+    <property name="show_last" type="bool" value="true"/>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="54" gid="16" x="217.5" y="130.75" width="32" height="32">
+   <properties>
+    <property name="show_last" type="bool" value="true"/>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="55" gid="16" x="258.5" y="130.5" width="32" height="32">
+   <properties>
+    <property name="show_last" type="bool" value="true"/>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Characters">
+  <object id="33" name="Jessica" x="84.2721" y="85.8424">
+   <point/>
+  </object>
+  <object id="34" name="Alona" x="552.741" y="148.13">
+   <point/>
+  </object>
+  <object id="56" name="Emily" x="112.667" y="361.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Collision">
+  <object id="15" x="0.523429" y="0.523429" width="31.9292" height="319.292"/>
+  <object id="16" x="128.24" y="287.363" width="416.126" height="31.9292"/>
+  <object id="17" x="127.717" y="256.48" width="31.4058" height="30.8823"/>
+  <object id="18" x="63.8584" y="256.48" width="30.8823" height="63.3349"/>
+  <object id="19" x="32.976" y="286.839" width="29.8355" height="31.9292"/>
+  <object id="20" x="34.0229" y="1.04686" width="509.297" height="30.3589"/>
+  <object id="21" x="608.225" y="31.9292" width="30.3589" height="127.054"/>
+  <object id="57" x="608.892" y="192.929" width="30.3589" height="95.7203"/>
+  <object id="23" x="225.075" y="125.1" width="55.4835" height="15.7029"/>
+  <object id="24" x="202.044" y="132.951" width="14.656" height="5.23429"/>
+  <object id="25" x="238.16" y="152.318" width="17.2732" height="6.80458"/>
+  <object id="26" x="292.074" y="130.334" width="16.2263" height="6.28115"/>
+  <object id="27" x="320.862" y="51.8195" width="185.294" height="10.4686"/>
+  <object id="35" x="544.89" y="0" width="93.6938" height="30.3589"/>
+  <object id="36" x="544.89" y="287.363" width="95.2641" height="31.9292"/>
+  <object id="59" x="318.984" y="0" width="33.2532" height="318.984">
+   <properties>
+    <property name="trigger_func" value="alona_walk_outside"/>
+   </properties>
+  </object>
+  <object id="60" x="517.271" y="351.005" width="1.8474" height="3.69479"/>
+ </objectgroup>
+ <objectgroup id="8" name="Interact">
+  <object id="38" x="292" y="116" width="16.6667" height="21.3333">
+   <properties>
+    <property name="dialogue" value="TEST EMILY"/>
+   </properties>
+  </object>
+  <object id="39" x="200.667" y="116.667" width="16.6667" height="22.6667">
+   <properties>
+    <property name="dialogue" value="CHAIR"/>
+   </properties>
+  </object>
+  <object id="41" x="239.333" y="144.667" width="16" height="14.6667">
+   <properties>
+    <property name="dialogue_func" value="icarus_sitchair(obj)"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Exits">
+  <object id="29" name="Exit 1" x="94.2173" y="301.495" width="34.0229" height="17.2732">
+   <properties>
+    <property name="dest_entrance" value="Entrance 3"/>
+    <property name="dest_room" value="House_Atrium_Upper.tmx"/>
+   </properties>
+  </object>
+  <object id="62" name="Exit 2" x="614.767" y="160.089" width="24.4002" height="32.1369">
+   <properties>
+    <property name="dest_entrance" value="Entrance 1"/>
+    <property name="dest_room" value="Outside_house.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Entrances">
+  <object id="28" name="Entrance 1" x="95.2641" y="270.089" width="31.9292" height="9.94516"/>
+  <object id="61" name="Entrance 2" x="585.01" y="158.899" width="22.0197" height="32.732"/>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn">
+  <object id="30" x="110.444" y="149.701">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

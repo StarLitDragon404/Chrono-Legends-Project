@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="27">
+ <tileset firstgid="1" source="../tilesets/House.tsx"/>
+ <tileset firstgid="10" source="../tilesets/Objects.tsx"/>
+ <layer id="1" name="Ground" width="16" height="10">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup id="7" name="Interact">
+  <object id="24" x="45.3228" y="39.9038" width="71.4327" height="97.5426">
+   <properties>
+    <property name="dialogue" value="It's your bed."/>
+   </properties>
+  </object>
+  <object id="25" x="160.108" y="33.4995" width="62.0725" height="29.5584">
+   <properties>
+    <property name="dialogue" value="It's your desk"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Exits">
+  <object id="4" name="Exit 1" x="501" y="161" width="28" height="29">
+   <properties>
+    <property name="dest_entrance" value="Entrance 1"/>
+    <property name="dest_room" value="House_Atrium_upper.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Entrances">
+  <object id="7" name="Entrance 1" x="451" y="152" width="27" height="17"/>
+ </objectgroup>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Bed" gid="10" x="45.3333" y="136.471" width="71.7723" height="96.4711">
+   <properties>
+    <property name="ysort" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="17" gid="12" x="159" y="65" width="64" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn">
+  <object id="23" x="74" y="74.6667">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Collision">
+  <object id="9" x="1" y="1" width="31" height="319"/>
+  <object id="10" x="33" y="289" width="479" height="30"/>
+  <object id="11" x="480" y="193" width="32" height="96"/>
+  <object id="12" x="479" y="2" width="34" height="157"/>
+  <object id="13" x="34" y="1" width="443.971" height="29.9558"/>
+  <object id="20" x="46" y="40" width="72" height="98"/>
+  <object id="21" x="164.667" y="46.6667" width="52.6667" height="13.3333"/>
+ </objectgroup>
+</map>

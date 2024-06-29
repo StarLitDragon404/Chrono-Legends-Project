@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="20">
+ <tileset firstgid="1" source="../tilesets/House.tsx"/>
+ <tileset firstgid="10" source="../tilesets/Objects.tsx"/>
+ <layer id="1" name="Ground" width="16" height="10">
+  <data encoding="csv">
+2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" gid="10" x="409" y="126.5" width="64" height="90">
+   <properties>
+    <property name="ysort" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="2" gid="12" x="336.5" y="66" width="64" height="32">
+   <properties>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" name="Secret Door" gid="15" x="299.054" y="244.593" width="64" height="100">
+   <properties>
+    <property name="door_vis" type="bool" value="false"/>
+    <property name="ysort" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn">
+  <object id="15" x="248.268" y="167.736">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Interact">
+  <object id="18" x="299.032" y="143.851" width="63.0578" height="100.498">
+   <properties>
+    <property name="dialogue" value="It's locked"/>
+   </properties>
+  </object>
+  <object id="19" x="408.398" y="36.4553" width="64.0431" height="88.6751">
+   <properties>
+    <property name="dialogue" value="It's your sisters bed."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Entrances">
+  <object id="3" name="Entrance 1" x="96" y="41" width="32" height="17"/>
+ </objectgroup>
+ <objectgroup id="4" name="Exits">
+  <object id="4" name="Exit 1" x="96" y="1.5" width="31" height="9.5">
+   <properties>
+    <property name="dest_entrance" value="Entrance 2"/>
+    <property name="dest_room" value="House_Atrium_upper.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Collision">
+  <object id="5" x="0.5" y="0" width="95" height="31.5"/>
+  <object id="6" x="129.5" y="0" width="383" height="31.5"/>
+  <object id="7" x="480" y="33" width="32.5" height="286"/>
+  <object id="8" x="-0.5" y="30" width="33" height="290"/>
+  <object id="9" x="33" y="287.5" width="447" height="31.5"/>
+  <object id="13" x="341.667" y="51.4645" width="54.8001" height="11.4365"/>
+  <object id="14" x="409.81" y="38.1218" width="62.901" height="87.2037">
+   <properties>
+    <property name="ysort" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
